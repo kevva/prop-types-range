@@ -1,0 +1,36 @@
+{
+	"name": "prop-types-range",
+	"version": "0.0.0",
+	"description": "Number range prop type validation",
+	"license": "MIT",
+	"repository": "kevva/prop-types-range",
+	"author": {
+		"name": "Kevin Martensson",
+		"email": "kevinmartensson@gmail.com",
+		"url": "github.com/kevva"
+	},
+	"engines": {
+		"node": ">=6"
+	},
+	"scripts": {
+		"test": "xo && ava --serial"
+	},
+	"files": [
+		"index.js"
+	],
+	"keywords": [
+		"number",
+		"prop-types",
+		"range",
+		"react"
+	],
+	"dependencies": {
+		"ow": "^0.6.0"
+	},
+	"devDependencies": {
+		"ava": "*",
+		"react": "^16.4.1",
+		"sinon": "^6.1.4",
+		"xo": "*"
+	}
+}
