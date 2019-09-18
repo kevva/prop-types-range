@@ -1,6 +1,6 @@
 {
 	"name": "prop-types-range",
-	"version": "0.0.0",
+	"version": "1.0.0",
 	"description": "Number range prop type validation",
 	"license": "MIT",
 	"repository": "kevva/prop-types-range",
