@@ -10,8 +10,8 @@ class PropTypeError extends Error {
 }
 
 const validator = (min, max, isRequired) => {
-	ow(min, 'min', ow.number.lessThan(max));
-	ow(max, 'max', ow.number.greaterThan(min));
+	ow(min, ow.number.lessThan(max));
+	ow(max, ow.number.greaterThan(min));
 
 	return (props, propName, componentName) => {
 		const propValue = props[propName];
