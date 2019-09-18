@@ -10,7 +10,7 @@
 		"url": "github.com/kevva"
 	},
 	"engines": {
-		"node": ">=6"
+		"node": ">=10"
 	},
 	"scripts": {
 		"test": "xo && ava --serial"
@@ -25,12 +25,13 @@
 		"react"
 	],
 	"dependencies": {
-		"ow": "^0.6.0"
+		"ow": "^0.13.2"
 	},
 	"devDependencies": {
-		"ava": "*",
+		"ava": "^2.4.0",
 		"react": "^16.4.1",
+		"safe-eval": "^0.4.1",
 		"sinon": "^6.1.4",
-		"xo": "*"
+		"xo": "^0.24.0"
 	}
 }

@@ -41,8 +41,3 @@ Minumum value of prop.
 Type: `number`
 
 Maximum value of prop.
-
-
-## License
-
-MIT © [Kevin Martensson](http://github.com/kevva)
